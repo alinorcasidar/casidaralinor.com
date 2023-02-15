@@ -1,0 +1,299 @@
+.pagecontent{
+  text-align: center;
+  margin-left: 25%;
+  padding: 150px;
+  font-size: 150%;
+  
+}
+.pagecontent2, .pagecontent3, .pagecontent4, .pagecontent5{
+  margin-left: 25%;
+  padding: 20px;
+  font-size: 130%;
+  
+}
+.pagecontent6{
+  margin-left: 25%;
+  padding: 0px;
+  font-size: 130%;
+}
+.pagecontent6 p{
+
+}
+.aboutmecolumn{
+  padding: left 120px;
+}
+.sidebar{
+font-size: 130%;
+margin-left: 15px;
+color: rgb(65, 61, 61);
+}
+.sidebar h2{
+color: rgb(158, 113, 29);
+padding: 5%;
+}
+h1, .resume{
+  color: rgb(158, 113, 29);
+}
+.aboutme
+{
+  padding: 4%;
+  font-size: 120%;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.facebook{
+  padding: 30px;
+  margin-left: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  background-color:white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  background-color:white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.alinorimage{
+  width: 220px;
+  padding: 5%;
+}
+.skills1, .text1{
+  padding: 5%;
+}
+.facebook1{
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2, .column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+
+.pagecontent5{
+  margin-left: 25%;
+  padding: 20px;
+  font-size: 130%;
+}
+.w3-xxlarge fa fa-user{
+padding-bottom: 100%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .sidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .pagecontent {
+    padding-top: 20%;
+    font-size: 95%;
+    padding-right: 2%;
+    margin-left: 0%;
+    margin-right: 22px;
+    text-align: center;
+
+  }
+  .pagecontent h2{
+    font-size: 30px;
+  }
+  .sidebar{
+    font-size: 85%;
+    margin-left: 15px;
+    color: rgb(65, 61, 61);
+    }
+    .sidebar h2{
+      color: rgb(158, 113, 29);
+      padding: 5%;
+      font-size: 140%;
+      }
+      h1{
+        color: rgb(158, 113, 29);
+        font-size: 180%;
+      }
+      .aboutme
+      {
+        padding: 4%;
+        font-size: 80%;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      /* Style all font awesome icons */
+      .fa {
+        padding: 3px;
+        font-size: 25px;
+        width:25px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      } 
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-youtube {
+        background: red;
+        color: white;
+      }
+      .facebook {
+        padding: 0px;
+        margin-left: 0px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .facebook1{
+        padding-top: 5%;
+        padding-bottom: 15%;
+        padding-left: 5px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column2 {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .pagecontent5{
+        margin-left: 25%;
+        padding: 20px;
+        font-size: 70%;
+      }
+      .pagecontent5 h2{
+          font-size: 20px;
+      }
+      .w3-xxlarge fa fa-user{
+      padding-bottom: 100%;
+      }
+      .w3-bar-block .w3-bar-item {
+        width: 100%;
+        display: block;
+        padding: 8px 0px;
+        text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+      }
+      .w3-margin {
+        margin: 0px !important;
+      }
+      .alinorimage {
+        width: 150px;
+        padding-top: 2%;
+        padding-left: 5px;
+      }
+      .pagecontent6 h2{
+        font-size: 25px;
+      }
+      .pagecontent6 h3{
+        font-size: 20px;
+      }
+      .pagecontent6 p{
+        font-size: 15px;
+      }
+      .resume {
+        color: rgb(158, 113, 29);
+        font-size: 14px;
+      }
+      .aboutmecolumn{
+        padding: 0em 90px;
+      }
+      .pagecontent6{
+        margin-left: 0%;
+        padding: 20px;
+        font-size: 130%;
+      }
+      .column7 {
+        display: none;
+      }
+    .w3-half{
+      float: left;
+      width: 120%;
+    }
+    .w3-container {
+      padding: 0.01em 11px;
+  }
+
+      }
